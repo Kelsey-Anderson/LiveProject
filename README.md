@@ -1,9 +1,8 @@
 # Live Project
 
-### For two weeks towards the end of my Tech Academy Bootcamp, I worked in a Team Sprint developing a project using ASP .NET MVC and Entity Framework and utilizing the Aglie/Scrum Methodology. The project I worked on is an interactive website for managing the content and productions for a theater/acting company. I was expected to complete at least 2 User Stories and attend 10 daily Stand-Up meetings, as well as participate in Code Retrospectives at the end. This provided some real-world experience and practice using clean version control and Azure DevOps.
+### For two weeks towards the end of my Tech Academy Bootcamp, I worked in a Team Sprint developing a project using ASP .NET MVC and Entity Framework and utilizing the Aglie/Scrum Methodology. The project I worked on is an interactive website for managing the content and productions for a theater/acting company. I was expected to complete several User Stories and attend daily Stand-Up meetings, as well as participate in Code Retrospectives at the end of each week. This provided some real-world experience and practice using clean version control and Azure DevOps.
 
 ### Below are descriptions of the stories I worked on, along with code snippets and screen shots.
-
 
 ## First User Story- Create and Style Contact Page
 ### *Description: Create a new View in the Home View folder called Contact.cshtml.  Create a form that takes the User's first and last name, Email address, subject, and message.  The form doesn't need to be operational.  To the right of the form have an option for users to Donate and Volunteer.*
@@ -155,5 +154,12 @@ Here is what I wrote for the Startup.cs file:
 
 ```
 
+Data was saved to the database!
+
+<img width="530" alt="UserStoryDBdata" src="https://user-images.githubusercontent.com/84823575/136642449-3c5b3fc5-15ba-49d4-b304-468ee808428b.png">
+
+# Conclusion:
+
+### My favorite part about this Live Project was seeing first-hand exactly how a team of developers works through a backlog of individual user stories that contribute to one whole project. Everything was organized, expectations were clear and the instructors/project manager was always willing to help guide us through any roadblocks. Communication is key to the overall success of the project so it was great to experience the daily stand-ups and hear about both the struggles and triumphs of my peers. I look forward to working in this type of team environment in the future!
                 
 
