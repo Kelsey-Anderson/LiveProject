@@ -61,4 +61,27 @@ Here is the code I wrote:
   
 Here is the finished result:
 
+<img width="452" alt="UserStoryResult1" src="https://user-images.githubusercontent.com/84823575/136641834-a0df97a4-82ba-4be4-a069-d17de567981d.png">
+
+## User Story 2 - History Manager User Part 1: Create User
+### *Description: Create a manager ApplicationUser for the Rental area.  This history manager will act as an admin for the RentalHistory area and is responsible for keeping track of the history of returned rentals. Add these properties to the HistoryManager class: (RestrictedUsers: int) and (RentalReplacementRequests: int)*
+
+Here is what I wrote:
+
+```
+ //This history manager will act as an admin for the RentalHistory area
+    //and is responsible for keeping track of the history of returned rentals
+    public class HistoryManager : ApplicationUser
+    {
+        //This RestrictedUsers property represents the number of Users that
+        //this manager has blocked from renting from the theatre again
+        public int RestrictedUsers { get; set; }
+
+        //The RentalReplacementRequests represent the number of Rentals that
+        //need to be replaced due to damage.
+        public int RentalReplacementRequests { get; set; }
+```
+
+
+
 
