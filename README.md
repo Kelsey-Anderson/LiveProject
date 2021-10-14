@@ -7,7 +7,7 @@
 ## First User Story- Create and Style Contact Page
 ### *Description: Create a new View in the Home View folder called Contact.cshtml.  Create a form that takes the User's first and last name, Email address, subject, and message.  The form doesn't need to be operational.  To the right of the form have an option for users to Donate and Volunteer.*
 
-Here is the code I wrote:
+Below is a snippet of the code I wrote. Here I followed a specific naming convention for creating style classes for the CSS to prevent existing rule-sets from being overridden accidentally by incoming others working on this same project.   
 
  ```@*---Header Text---*@
   <h2 class="cms-contact--contactText">CONTACT US</h2>
@@ -65,7 +65,7 @@ Here is the finished result:
 ## Second User Story- History Manager User Part 1: Create User
 ### *Description: Create a manager ApplicationUser for the Rental area.  This history manager will act as an admin for the RentalHistory area and is responsible for keeping track of the history of returned rentals. Add these properties to the HistoryManager class: (RestrictedUsers: int) and (RentalReplacementRequests: int)*
 
-Here is what I wrote:
+Below is a code snippet of what I wrote. The HistoryManager inherits from the ApplicationUser and I created some properties for future use.
 
 ```
     public class HistoryManager : ApplicationUser
@@ -85,8 +85,7 @@ This created columns in the database:
 ## 3rd User Story - History Manager User Part 2: Seed HistoryManager
 ### *Description: To test out the new HistoryManager class, create a seed method for HistoryManager.  Seeding the database entails creating an instance of HistoryManager and saving it to the database before the page is loaded so that we have access to the HistoryManager for testing purposes.*
 
-Here is what I wrote for the HistoryManager.cs file:
-
+Below is a code snippet for the HistoryManager.cs file. It basically checks if there is already an instance of the HistoryManager, and if not, create one. 
 ```
         //Seeding the database
         //creating a method:
@@ -160,6 +159,6 @@ Data was saved to the database!
 
 # Conclusion:
 
-### My favorite part about this Live Project was seeing first-hand exactly how a team of developers works through a backlog of individual user stories that contribute to one whole project. Everything was organized, expectations were clear and the instructors/project manager was always willing to help guide us through any roadblocks. Communication is key to the overall success of the project so it was great to experience the daily stand-ups and hear about both the struggles and triumphs of my peers. I look forward to working in this type of team environment in the future!
+### My favorite part about this Live Project was seeing first-hand exactly how a team of developers works through a backlog of individual user stories that contribute to one whole project. Everything was organized, expectations were clear and the instructors/project manager was always willing to help guide us through any roadblocks. Communication is key to the overall success of the project so it was great to experience the daily stand-ups and hear about both the struggles and triumphs of my peers. I look forward to working in this type of team environment in the future! 
                 
 
